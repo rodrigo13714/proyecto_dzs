@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el amor de mi vida:\n\nUn añito mas de mi bebe hermosa, ya son 23, y me alegra muchito que pueda seguir celebrandolo contigo, pasan los años y cada vez me enamoro más de ti, eres una chica tan unica, tan linda y bella eye, mi corazoncito yindo.\n\nMe encanta como eres, y tambien que pueda seguir pasando toda la vida contigo y poder contar los años que pasamos juntos.\n\nGracias por estar ahi para dudu, por entenderme incluso en silencio, y por llenar mis días de amor y muchos bechos.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Para el amor de mi vida:\n\nFeliz cumpleañoooos bebeee guapaaaaa, un añito mas de mi bebe hermosa, ya son 23, y me alegra muchito que pueda seguir celebrandolo contigo, pasan los años y cada vez me enamoro más de ti, eres una chica tan unica, tan linda y bella eye, mi corazoncito yindo.\n\nMe encanta como eres, y tambien que pueda seguir pasando toda la vida contigo y poder contar los años que pasamos juntos.\n\nGracias por estar ahi para dudu, por entenderme incluso en silencio, y por llenar mis días de amor y muchos bechos.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
